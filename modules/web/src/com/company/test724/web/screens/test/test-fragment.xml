@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fragment xmlns="http://schemas.haulmont.com/cuba/screen/fragment.xsd">
+    <layout>
+        <label id="testFragmentLabel" value="Inside fragment"/>
+        <suggestionPickerField id="testFragmentField"
+                               metaClass="test724_Person"/>
+    </layout>
+</fragment>

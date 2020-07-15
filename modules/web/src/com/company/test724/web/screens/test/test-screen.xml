@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://schemas.haulmont.com/cuba/screen/window.xsd"
+        caption="msg://caption"
+        messagesPack="com.company.test724.web.screens.test">
+    <dialogMode width="auto"/>
+    <layout>
+        <label id="testLabel" value="Outside fragment"/>
+        <suggestionPickerField id="testScreenField"
+                               metaClass="test724_Person"/>
+        <fragment id="testFragment" screen="test724_TestFragment"/>
+    </layout>
+</window>

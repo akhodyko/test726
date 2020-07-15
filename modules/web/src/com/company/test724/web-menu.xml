@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu-config xmlns="http://schemas.haulmont.com/cuba/menu.xsd">
+    <menu id="application-test724" insertBefore="administration">
+        <item screen="test724_Person.browse"/>
+        <item screen="test724_TestScreen" openType="DIALOG"/>
+    </menu>
+</menu-config>
